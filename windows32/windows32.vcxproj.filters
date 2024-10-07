@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="framework.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="io.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="framework.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="io.asm" />
+    <MASM Include="IOExample.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Assignments">
+      <UniqueIdentifier>{e6d87dbf-9754-41b2-9eae-c65a669d4451}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
